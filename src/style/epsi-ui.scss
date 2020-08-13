@@ -1,0 +1,226 @@
+/*
+ EpsiUI v0.0.1
+*/
+
+// Reset
+*:focus,
+*:hover,
+*:active {
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
+// Color
+.c54 {
+  color: rgba(0, 0, 0, 0.54);
+}
+.c87 {
+  color: rgba(0, 0, 0, 0.87);
+}
+.c-error {
+  color: #d82b2b;
+}
+.c-success {
+  color: #1a941a;
+}
+.c-white {
+  color: white;
+}
+
+// Background color
+.bg-eee {
+  background-color: #eee;
+}
+.bg-white {
+  background-color: white;
+}
+
+// Width
+.w-100 {
+  width: 100%;
+}
+.w-32px {
+  width: 32px;
+}
+
+.max-w-100 {
+  max-width: 100%;
+}
+.max-w-75 {
+  max-width: 75%;
+}
+.max-w-50 {
+  max-width: 50%;
+}
+.max-w-25 {
+  max-width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+  .max-w-100,
+  .max-w-75,
+  .max-w-50,
+  .max-w-25 {
+    max-width: 100%;
+  }
+}
+
+.h-100 {
+  height: 100%;
+}
+.h-100v {
+  height: 100vh;
+}
+
+// Buttons
+.btn-icon {
+  font-size: 1.5rem;
+}
+
+// Icons
+.icon-big {
+  font-size: 1.5rem;
+}
+
+// Random
+.manita {
+  cursor: pointer;
+}
+
+// Display handlers
+.d-flex {
+  display: flex;
+}
+.d-grid {
+  display: grid;
+}
+
+// Flex
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+
+.flex-inline {
+  display: inline-flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+.justify-self-end {
+  justify-self: flex-end;
+}
+.justify-self-start {
+  justify-self: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-self-center {
+  align-self: center;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+.align-self-start {
+  align-self: flex-start;
+}
+
+.vertical-bottom {
+  vertical-align: bottom;
+}
+
+// Shorthands
+.flex-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+// Text Transforms
+.text-center {
+  text-align: center;
+}
+.text-bolder {
+  font-weight: bolder;
+}
+
+// Shadows
+.md-shadow-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.md-shadow-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.18);
+}
+
+// List item
+.manita-list-item {
+  cursor: pointer;
+  &:hover {
+    background-color: #eee;
+  }
+  padding: 0.5rem;
+}
+
+// Border
+.border-ddd-bottom {
+  border-bottom: 1px solid #ddd !important;
+}
+
+.border-ddd-right {
+  border-right: 1px solid #ddd;
+}
+
+.border-ddd-left {
+  border-left: 1px solid #ddd;
+}
