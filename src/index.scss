@@ -1,0 +1,10 @@
+// Entry point for SASS
+@import "variables";
+
+// Libraries
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~react-json-pretty/themes/monikai.css";
+@import "./style/epsi-ui.scss";

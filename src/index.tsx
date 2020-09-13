@@ -1,14 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./style/index.scss";
+import { Provider as ReduxProvider } from "react-redux";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import store from "./app.store";
+import "./index.scss";
+
+import { DeimosFirebase } from "./lib/deimos-crud-firestore/deimos-firebase";
+
+export const ROOT_ELEMENT = "root";
+
+DeimosFirebase.initialize();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ReduxProvider store={store}>
+      <App />
+    </ReduxProvider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById(ROOT_ELEMENT)
 );
 
 // If you want your app to work offline and load faster, you can change

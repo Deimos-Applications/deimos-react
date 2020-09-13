@@ -1,0 +1,206 @@
+[debug] [2020-09-05T20:51:12.846Z] ----------------------------------------------------------------------
+[debug] [2020-09-05T20:51:12.847Z] Command:       /home/neri/.nvm/versions/node/v10.13.0/bin/node /home/neri/.nvm/versions/node/v10.13.0/bin/firebase emulators:start
+[debug] [2020-09-05T20:51:12.848Z] CLI Version:   8.10.0
+[debug] [2020-09-05T20:51:12.848Z] Platform:      linux
+[debug] [2020-09-05T20:51:12.848Z] Node Version:  v10.13.0
+[debug] [2020-09-05T20:51:12.848Z] Time:          Sat Sep 05 2020 15:51:12 GMT-0500 (Central Daylight Time)
+[debug] [2020-09-05T20:51:12.848Z] ----------------------------------------------------------------------
+[debug] [2020-09-05T20:51:12.848Z] 
+[debug] [2020-09-05T20:51:12.878Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-05T20:51:12.878Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore"}}
+[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project deimos-react. This may result in unexpected behavior. 
+[debug] [2020-09-05T20:51:12.899Z] [hub] writing locator at /tmp/hub-deimos-react.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub\u001b[22m"}}
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"8\" doesn't match your global version \"10\""}}
+[debug] [2020-09-05T20:51:12.937Z] defaultcredentials: writing to file /home/neri/.config/firebase/arcaniteamp_gmail_com_application_default_credentials.json
+[debug] [2020-09-05T20:51:12.940Z] Setting GAC to /home/neri/.config/firebase/arcaniteamp_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/neri/.config/firebase/arcaniteamp_gmail_com_application_default_credentials.json"}}
+[warn] ⚠  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] ⚠  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2020-09-05T20:51:12.952Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2020-09-05T20:51:12.952Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-09-05T20:51:12.952Z] Starting Firestore Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/home/neri/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.7.jar","--host","localhost","--port",8080,"--functions_emulator","localhost:5001"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"/home/neri/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.7.jar\",\"--host\",\"localhost\",\"--port\",8080,\"--functions_emulator\",\"localhost:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"functions_emulator\",\"seed_from_export\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2020-09-05T20:51:14.285Z] API endpoint: http://localhost {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://localhost"}}
+[debug] [2020-09-05T20:51:14.286Z] :8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":":8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=localhost:8080\n\nDev App Server is now running.\n\n"}}
+[debug] [2020-09-05T20:51:14.499Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-09-05T20:51:14.499Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2020-09-05T20:51:14.499Z] Starting Emulator UI with command {"binary":"node","args":["/home/neri/.cache/firebase/emulators/ui-v1.1.1/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/neri/.cache/firebase/emulators/ui-v1.1.1/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2020-09-05T20:51:14.715Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] i  functions: Watching "/home/neri/code/deimos-react-ts/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/neri/code/deimos-react-ts/functions\" for Cloud Functions..."}}
+[debug] [2020-09-05T20:51:14.790Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-09-05T20:51:14.790Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2020-09-05T20:51:14.790Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-09-05T20:51:14.791Z] [worker-~diagnostic~-07506966-82a5-4498-8346-4d230bd4c1d5]: Assigning socketPath: /tmp/fire_emu_2124.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-07506966-82a5-4498-8346-4d230bd4c1d5]: Assigning socketPath: /tmp/fire_emu_2124.sock"}}
+[debug] [2020-09-05T20:51:14.791Z] [worker-~diagnostic~-07506966-82a5-4498-8346-4d230bd4c1d5]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-07506966-82a5-4498-8346-4d230bd4c1d5]: BUSY"}}
+[debug] [2020-09-05T20:51:15.114Z] [runtime-status] [2124] Functions runtime initialized. {"cwd":"/home/neri/code/deimos-react-ts/functions","node_version":"10.13.0"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Functions runtime initialized. {\"cwd\":\"/home/neri/code/deimos-react-ts/functions\",\"node_version\":\"10.13.0\"}"}}
+[debug] [2020-09-05T20:51:15.115Z] [runtime-status] [2124] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Disabled runtime features: undefined"}}
+[debug] [2020-09-05T20:51:15.122Z] [runtime-status] [2124] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-09-05T20:51:15.127Z] [runtime-status] [2124] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-05T20:51:15.128Z] [runtime-status] [2124] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-05T20:51:15.131Z] [runtime-status] [2124] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2020-09-05T20:51:15.132Z] [runtime-status] [2124] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-05T20:51:15.415Z] [runtime-status] [2124] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Checked functions.config() {\"config\":{}}"}}
+[debug] [2020-09-05T20:51:15.416Z] [runtime-status] [2124] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2020-09-05T20:51:15.416Z] [runtime-status] [2124] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-05T20:51:15.417Z] [runtime-status] [2124] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-09-05T20:51:15.417Z] [runtime-status] [2124] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-05T20:51:15.417Z] [runtime-status] [2124] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2020-09-05T20:51:15.489Z] [runtime-status] [2124] initializeApp(DEFAULT) {"databaseURL":"https://deimos-react.firebaseio.com","storageBucket":"deimos-react.appspot.com","projectId":"deimos-react"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2124] initializeApp(DEFAULT) {\"databaseURL\":\"https://deimos-react.firebaseio.com\",\"storageBucket\":\"deimos-react.appspot.com\",\"projectId\":\"deimos-react\"}"}}
+[debug] [2020-09-05T20:51:17.357Z] addFirestoreTrigger "{\"eventTrigger\":{\"resource\":\"projects/deimos-react/databases/(default)/documents/{collection}/{docId}\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2020-09-05T20:51:17.358Z] >>> HTTP REQUEST PUT http://localhost:8080/emulator/v1/projects/deimos-react/triggers/deimosCrudPaginationTrackingCreate  
+ {"eventTrigger":{"resource":"projects/deimos-react/databases/(default)/documents/{collection}/{docId}","eventType":"providers/cloud.firestore/eventTypes/document.create","service":"firestore.googleapis.com"}}
+[debug] [2020-09-05T20:51:17.359Z] [worker-~diagnostic~-07506966-82a5-4498-8346-4d230bd4c1d5]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-07506966-82a5-4498-8346-4d230bd4c1d5]: IDLE"}}
+[debug] [2020-09-05T20:51:17.380Z] Sep 05, 2020 3:51:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 05, 2020 3:51:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-09-05T20:51:17.497Z] Sep 05, 2020 3:51:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 05, 2020 3:51:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2020-09-05T20:51:17.884Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[debug] [2020-09-05T20:51:17.884Z] addFirestoreTrigger "{\"eventTrigger\":{\"resource\":\"projects/deimos-react/databases/(default)/documents/{collection}/{docId}\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.delete\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2020-09-05T20:51:17.884Z] >>> HTTP REQUEST PUT http://localhost:8080/emulator/v1/projects/deimos-react/triggers/deimosCrudPaginationTrackingDelete  
+ {"eventTrigger":{"resource":"projects/deimos-react/databases/(default)/documents/{collection}/{docId}","eventType":"providers/cloud.firestore/eventTypes/document.delete","service":"firestore.googleapis.com"}}
+[debug] [2020-09-05T20:51:17.887Z] Sep 05, 2020 3:51:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 05, 2020 3:51:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-09-05T20:51:17.893Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[debug] [2020-09-05T20:51:17.893Z] addFirestoreTrigger "{\"eventTrigger\":{\"resource\":\"projects/deimos-react/databases/(default)/documents/user/{userId}\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.write\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2020-09-05T20:51:17.893Z] >>> HTTP REQUEST PUT http://localhost:8080/emulator/v1/projects/deimos-react/triggers/deimosCrudUser  
+ {"eventTrigger":{"resource":"projects/deimos-react/databases/(default)/documents/user/{userId}","eventType":"providers/cloud.firestore/eventTypes/document.write","service":"firestore.googleapis.com"}}
+[debug] [2020-09-05T20:51:17.896Z] Sep 05, 2020 3:51:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 05, 2020 3:51:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-09-05T20:51:17.901Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] ✔  functions[deimosCrudPaginationTrackingCreate]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] ✔  functions[deimosCrudPaginationTrackingDelete]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] ✔  functions[deimosCrudUser]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] 
+┌───────────────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! View status and logs at http://localhost:4000 │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Firestore │ localhost:8080 │ http://localhost:4000/firestore │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Other reserved ports: 4400, 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2020-09-06T02:51:00.056Z] Received signal SIGHUP 1
+[debug] [2020-09-06T20:51:21.705Z] ----------------------------------------------------------------------
+[debug] [2020-09-06T20:51:21.706Z] Command:       /home/neri/.nvm/versions/node/v10.13.0/bin/node /home/neri/.nvm/versions/node/v10.13.0/bin/firebase emulators:start
+[debug] [2020-09-06T20:51:21.707Z] CLI Version:   8.10.0
+[debug] [2020-09-06T20:51:21.707Z] Platform:      linux
+[debug] [2020-09-06T20:51:21.707Z] Node Version:  v10.13.0
+[debug] [2020-09-06T20:51:21.707Z] Time:          Sun Sep 06 2020 15:51:21 GMT-0500 (Central Daylight Time)
+[debug] [2020-09-06T20:51:21.707Z] ----------------------------------------------------------------------
+[debug] [2020-09-06T20:51:21.708Z] 
+[debug] [2020-09-06T20:51:21.736Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-06T20:51:21.736Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore"}}
+[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project deimos-react. This may result in unexpected behavior. 
+[debug] [2020-09-06T20:51:21.756Z] [hub] writing locator at /tmp/hub-deimos-react.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub\u001b[22m"}}
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"8\" doesn't match your global version \"10\""}}
+[debug] [2020-09-06T20:51:21.790Z] defaultcredentials: writing to file /home/neri/.config/firebase/arcaniteamp_gmail_com_application_default_credentials.json
+[debug] [2020-09-06T20:51:21.792Z] Setting GAC to /home/neri/.config/firebase/arcaniteamp_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/neri/.config/firebase/arcaniteamp_gmail_com_application_default_credentials.json"}}
+[warn] ⚠  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] ⚠  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2020-09-06T20:51:21.798Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2020-09-06T20:51:21.798Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-09-06T20:51:21.798Z] Starting Firestore Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/home/neri/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.7.jar","--host","localhost","--port",8080,"--functions_emulator","localhost:5001"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"/home/neri/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.7.jar\",\"--host\",\"localhost\",\"--port\",8080,\"--functions_emulator\",\"localhost:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"functions_emulator\",\"seed_from_export\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2020-09-06T20:51:23.055Z] API endpoint: http://localhost {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://localhost"}}
+[debug] [2020-09-06T20:51:23.055Z] :8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":":8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=localhost:8080\n\nDev App Server is now running.\n\n"}}
+[debug] [2020-09-06T20:51:23.087Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-09-06T20:51:23.087Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2020-09-06T20:51:23.087Z] Starting Emulator UI with command {"binary":"node","args":["/home/neri/.cache/firebase/emulators/ui-v1.1.1/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/neri/.cache/firebase/emulators/ui-v1.1.1/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2020-09-06T20:51:23.287Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] i  functions: Watching "/home/neri/code/deimos-react-ts/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/neri/code/deimos-react-ts/functions\" for Cloud Functions..."}}
+[debug] [2020-09-06T20:51:23.373Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-09-06T20:51:23.373Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2020-09-06T20:51:23.374Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-09-06T20:51:23.374Z] [worker-~diagnostic~-236b07f2-feb4-4734-8624-54281462ca0d]: Assigning socketPath: /tmp/fire_emu_2345.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-236b07f2-feb4-4734-8624-54281462ca0d]: Assigning socketPath: /tmp/fire_emu_2345.sock"}}
+[debug] [2020-09-06T20:51:23.374Z] [worker-~diagnostic~-236b07f2-feb4-4734-8624-54281462ca0d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-236b07f2-feb4-4734-8624-54281462ca0d]: BUSY"}}
+[debug] [2020-09-06T20:51:23.689Z] [runtime-status] [2345] Functions runtime initialized. {"cwd":"/home/neri/code/deimos-react-ts/functions","node_version":"10.13.0"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Functions runtime initialized. {\"cwd\":\"/home/neri/code/deimos-react-ts/functions\",\"node_version\":\"10.13.0\"}"}}
+[debug] [2020-09-06T20:51:23.690Z] [runtime-status] [2345] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Disabled runtime features: undefined"}}
+[debug] [2020-09-06T20:51:23.697Z] [runtime-status] [2345] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-09-06T20:51:23.702Z] [runtime-status] [2345] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-06T20:51:23.703Z] [runtime-status] [2345] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-06T20:51:23.705Z] [runtime-status] [2345] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2020-09-06T20:51:23.706Z] [runtime-status] [2345] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-06T20:51:23.991Z] [runtime-status] [2345] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Checked functions.config() {\"config\":{}}"}}
+[debug] [2020-09-06T20:51:23.992Z] [runtime-status] [2345] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2020-09-06T20:51:23.992Z] [runtime-status] [2345] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-06T20:51:23.993Z] [runtime-status] [2345] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-09-06T20:51:23.993Z] [runtime-status] [2345] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-06T20:51:23.993Z] [runtime-status] [2345] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/home/neri/code/deimos-react-ts/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2020-09-06T20:51:24.063Z] [runtime-status] [2345] initializeApp(DEFAULT) {"databaseURL":"https://deimos-react.firebaseio.com","storageBucket":"deimos-react.appspot.com","projectId":"deimos-react"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [2345] initializeApp(DEFAULT) {\"databaseURL\":\"https://deimos-react.firebaseio.com\",\"storageBucket\":\"deimos-react.appspot.com\",\"projectId\":\"deimos-react\"}"}}
+[debug] [2020-09-06T20:51:26.106Z] addFirestoreTrigger "{\"eventTrigger\":{\"resource\":\"projects/deimos-react/databases/(default)/documents/{collection}/{docId}\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2020-09-06T20:51:26.107Z] >>> HTTP REQUEST PUT http://localhost:8080/emulator/v1/projects/deimos-react/triggers/deimosCrudPaginationTrackingCreate  
+ {"eventTrigger":{"resource":"projects/deimos-react/databases/(default)/documents/{collection}/{docId}","eventType":"providers/cloud.firestore/eventTypes/document.create","service":"firestore.googleapis.com"}}
+[debug] [2020-09-06T20:51:26.109Z] [worker-~diagnostic~-236b07f2-feb4-4734-8624-54281462ca0d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-236b07f2-feb4-4734-8624-54281462ca0d]: IDLE"}}
+[debug] [2020-09-06T20:51:26.130Z] Sep 06, 2020 3:51:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 06, 2020 3:51:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-09-06T20:51:26.248Z] Sep 06, 2020 3:51:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 06, 2020 3:51:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2020-09-06T20:51:26.634Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[debug] [2020-09-06T20:51:26.634Z] addFirestoreTrigger "{\"eventTrigger\":{\"resource\":\"projects/deimos-react/databases/(default)/documents/{collection}/{docId}\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.delete\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2020-09-06T20:51:26.634Z] >>> HTTP REQUEST PUT http://localhost:8080/emulator/v1/projects/deimos-react/triggers/deimosCrudPaginationTrackingDelete  
+ {"eventTrigger":{"resource":"projects/deimos-react/databases/(default)/documents/{collection}/{docId}","eventType":"providers/cloud.firestore/eventTypes/document.delete","service":"firestore.googleapis.com"}}
+[debug] [2020-09-06T20:51:26.638Z] Sep 06, 2020 3:51:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 06, 2020 3:51:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-09-06T20:51:26.643Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[debug] [2020-09-06T20:51:26.644Z] addFirestoreTrigger "{\"eventTrigger\":{\"resource\":\"projects/deimos-react/databases/(default)/documents/user/{userId}\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.write\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2020-09-06T20:51:26.644Z] >>> HTTP REQUEST PUT http://localhost:8080/emulator/v1/projects/deimos-react/triggers/deimosCrudUser  
+ {"eventTrigger":{"resource":"projects/deimos-react/databases/(default)/documents/user/{userId}","eventType":"providers/cloud.firestore/eventTypes/document.write","service":"firestore.googleapis.com"}}
+[debug] [2020-09-06T20:51:26.646Z] Sep 06, 2020 3:51:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 06, 2020 3:51:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2020-09-06T20:51:26.652Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] ✔  functions[deimosCrudPaginationTrackingCreate]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] ✔  functions[deimosCrudPaginationTrackingDelete]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] ✔  functions[deimosCrudUser]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] 
+┌───────────────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! View status and logs at http://localhost:4000 │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Firestore │ localhost:8080 │ http://localhost:4000/firestore │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Other reserved ports: 4400, 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2020-09-07T03:22:07.700Z] Received signal SIGHUP 1
